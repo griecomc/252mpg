@@ -7,14 +7,24 @@
 	</head>
 	
 	<body>
-		<form>
-			MPG: <input type="text" name="mpg"><br>
-			KPL: <input type="text" name="kpm"><br>
+		<form name="conversionForm" >
+			MPG: <input type="text" name="mpgbox"><br>
+			KPL: <input type="text" name="kplbox"><br>
+			<input id="convert" type="button" value="Convert!" onClick="convMath()"/>
 		</form>
 		
-		<div>
-			<input id="clickMe" type="button" value="Convert!" onclick="doFunction();"/>
-		</div>
+	<script type="text/javascript">
+	function convMath() {
+	var mpg = conversionForm.mpgbox.value;
+	var kpl = +mpg * .425;
+	conversionForm.kplbox.value = (kpl);
+	}
+	
+		
+	</script>
+		
+	
+</body>
 		
 	</body>
 </html>
