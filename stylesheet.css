@@ -1,0 +1,26 @@
+div {
+	
+	margin: auto;
+	text-align: center;
+	
+  	
+}
+
+html { 
+	background: url(unicorn.jpg) no-repeat center center fixed; 
+	background-repeat: no-repeat;
+	background-size:1024px 768px;
+}
+
+form {
+	font-family: Courier;
+	font-size: 20px;
+	color: red;
+	text-align: center
+	
+	
+	
+	}
+	
+	
+
